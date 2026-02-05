@@ -17,7 +17,7 @@ const galleryData = [
     },
     {
         id: 3,
-        image: "assets/images/science-experiment.jpg",
+        image: "assets/images/work4.jpg.jpeg",
         title: "Science Experiments",
         description: "Hands-on learning with safe and exciting science activities!",
         category: "science"
