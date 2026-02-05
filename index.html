@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sindi's Tutoring Help - Fun Learning for Young Minds</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#home" class="logo nav-link" data-page="home">
+                <i class="fas fa-graduation-cap logo-icon"></i>
+                <div class="logo-text">Sindi's<span> Tutoring</span></div>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul id="mainNav">
+                    <li><a href="#home" class="nav-link active" data-page="home">🏠 Home</a></li>
+                    <li><a href="#services" class="nav-link" data-page="services">📚 Subjects</a></li>
+                    <li><a href="#about" class="nav-link" data-page="about">🌟 About Me</a></li>
+                    <li><a href="#gallery" class="nav-link" data-page="gallery">📸 Gallery</a></li>
+                    <li><a href="#testimonials" class="nav-link" data-page="testimonials">⭐ Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link" data-page="contact">📞 Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Content Container -->
+    <main id="page-content">
+        <!-- Pages will be loaded here dynamically -->
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img class="lightbox-content" id="lightboxImage" src="" alt="Gallery Image">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="logo nav-link" data-page="home">
+                    <i class="fas fa-graduation-cap logo-icon"></i>
+                    <div class="logo-text">Sindi's<span> Tutoring</span></div>
+                </a>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/its.just.sindi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" title="Follow on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/27659019828" target="_blank" title="Message on WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:sindistutoring@gmail.com" title="Send Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+27659019828" title="Call Now">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>✨ Making Learning Fun for Grades 1-12 ✨</p>
+                <p style="margin-top: 10px; font-size: 1rem;">Johannesburg, South Africa | 📞 +27 65 901 9828</p>
+                <p style="margin-top: 10px; font-size: 0.9rem; opacity: 0.9;">© 2023 Sindi's Tutoring Help. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
