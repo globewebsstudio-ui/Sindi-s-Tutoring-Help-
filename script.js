@@ -3,7 +3,7 @@
 const galleryData = [
     {
         id: 1,
-        image: "assets/images/work4.jpg.jpeg",
+        image: "assets/images/work5.jpg.jpeg",
         title: "Math Fun with Blocks",
         description: "Learning addition and subtraction with colorful building blocks!",
         category: "math"
@@ -24,14 +24,14 @@ const galleryData = [
     },
     {
         id: 4,
-        image: "assets/images/art-craft.jpg",
+        image: "assets/images/work5.jpg.jpeg",
         title: "Art & Craft Session",
         description: "Creative projects that make learning colorful and fun!",
         category: "creative"
     },
     {
         id: 5,
-        image: "assets/images/homework-help.jpg",
+        image: "assets/images/work6.jpg.jpeg",
         title: "Homework Help",
         description: "Patient, one-on-one support with school assignments!",
         category: "math"
