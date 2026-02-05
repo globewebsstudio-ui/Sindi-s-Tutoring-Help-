@@ -3,7 +3,7 @@
 const galleryData = [
     {
         id: 1,
-        image: "assets/images/math-fun.jpg",
+        image: "assets/images/Mitchells-plain-schoolkids.jpg",
         title: "Math Fun with Blocks",
         description: "Learning addition and subtraction with colorful building blocks!",
         category: "math"
