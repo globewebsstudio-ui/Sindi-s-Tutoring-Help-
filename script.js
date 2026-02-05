@@ -10,7 +10,7 @@ const galleryData = [
     },
     {
         id: 2,
-        image: "assets/images/work2.jpg",
+        image: "assets/images/work3.jpg.jpeg",
         title: "Reading Circle",
         description: "Story time and reading practice in our cozy learning corner!",
         category: "reading"
