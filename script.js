@@ -3,46 +3,47 @@
 const galleryData = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        image: "assets/images/work1.jpg.jpeg",
         title: "Math Fun with Blocks",
         description: "Learning addition and subtraction with colorful building blocks!",
         category: "math"
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        image: "assets/images/work2.jpg",
         title: "Reading Circle",
         description: "Story time and reading practice in our cozy learning corner!",
         category: "reading"
     },
     {
         id: 3,
-        image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        image: "assets/images/science-experiment.jpg",
         title: "Science Experiments",
         description: "Hands-on learning with safe and exciting science activities!",
         category: "science"
     },
     {
         id: 4,
-        image: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        image: "assets/images/art-craft.jpg",
         title: "Art & Craft Session",
         description: "Creative projects that make learning colorful and fun!",
         category: "creative"
     },
     {
         id: 5,
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        image: "assets/images/homework-help.jpg",
         title: "Homework Help",
         description: "Patient, one-on-one support with school assignments!",
         category: "math"
     },
     {
         id: 6,
-        image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        image: "assets/images/group-learning.jpg",
         title: "Group Learning",
         description: "Collaborative activities that build teamwork and social skills!",
         category: "reading"
     }
+    // Add more images as needed
 ];
 
 // Page content loader
