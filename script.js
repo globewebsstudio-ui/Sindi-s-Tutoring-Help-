@@ -38,7 +38,7 @@ const galleryData = [
     },
     {
         id: 6,
-        image: "assets/images/group-learning.jpg",
+        image: "assets/images/work7.jpg.jpeg",
         title: "Group Learning",
         description: "Collaborative activities that build teamwork and social skills!",
         category: "reading"
